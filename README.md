@@ -35,7 +35,7 @@ cd backend
 py -m pip install fastapi uvicorn requests
 Install frontend dependencies:
 
-bash
+```bash
 cd ../frontend
 py -m pip install streamlit requests
 Install and run Ollama:
@@ -44,20 +44,20 @@ Download from: https://ollama.com
 
 First time (downloads model):
 
-bash
+```bash
 ollama run llama3
 Then, in another terminal:
 
-bash
+```bash
 ollama serve
 Start backend:
 
-bash
+```bash
 cd backend
 py main.py
 Start frontend:
 
-bash
+```bash
 cd frontend
 py -m streamlit run app.py
 Open the browser (Streamlit will show a local URL), paste a sample conversation, and click Generate Note.

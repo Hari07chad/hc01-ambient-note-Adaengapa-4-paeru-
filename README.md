@@ -29,38 +29,47 @@ This project implements the **HC-01: Ambient Clinical Note Generator from Doctor
 1. Install Python 3 on Windows.
 
 2. Install backend dependencies:
+## How to run (local)
 
-```bash
-cd backend
-py -m pip install fastapi uvicorn requests
-Install frontend dependencies:
+1. Install Python 3 on Windows.
 
-```bash
-cd ../frontend
-py -m pip install streamlit requests
-Install and run Ollama:
+2. Install backend dependencies:
+  
+   ```
+   cd backend
+   py -m pip install fastapi uvicorn requests 
+3.Install frontend dependencies:
+
+  ```
+   cd ../frontend
+   py -m pip install streamlit requests
+
+```
+4.Install and run Ollama:
 
 Download from: https://ollama.com
 
 First time (downloads model):
-
-```bash
+```
 ollama run llama3
+```
 Then, in another terminal:
-
-```bash
+```
 ollama serve
-Start backend:
-
-```bash
+```
+5.Start backend:
+```
 cd backend
 py main.py
-Start frontend:
-
-```bash
+```
+6.Start frontend:
+```
 cd frontend
 py -m streamlit run app.py
-Open the browser (Streamlit will show a local URL), paste a sample conversation, and click Generate Note.
+```
+7.Open the browser (Streamlit will show a local URL), paste a sample conversation, and click Generate Note.
+
+
 
    
 

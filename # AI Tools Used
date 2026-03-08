@@ -1,0 +1,8 @@
+# AI Tools Used
+
+## During development
+- Perplexity (AI assistant) for step-by-step coding help and architecture guidance.
+
+## In the application (runtime)
+- Ollama with `llama3` model for local LLM inference (SOAP note generation and summarization).
+- No cloud AI APIs are used in the final demo (no OpenAI/Gemini calls).
